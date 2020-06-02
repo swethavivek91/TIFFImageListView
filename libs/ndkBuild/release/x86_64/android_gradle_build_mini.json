@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "D:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk",
+    "D:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "tiffsaver-release-x86_64": {
+      "artifactName": "tiffsaver",
+      "buildCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Assignment/code/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libtiffsaver.so",
+      "abi": "x86_64",
+      "output": "D:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libtiffsaver.so"
+    },
+    "tifffactory-release-x86_64": {
+      "artifactName": "tifffactory",
+      "buildCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Assignment/code/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libtifffactory.so",
+      "abi": "x86_64",
+      "output": "D:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libtifffactory.so"
+    },
+    "tiff-release-x86_64": {
+      "artifactName": "tiff",
+      "buildCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Assignment/code/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libtiff.so",
+      "abi": "x86_64",
+      "output": "D:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libtiff.so"
+    },
+    "tiffconverter-release-x86_64": {
+      "artifactName": "tiffconverter",
+      "buildCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Assignment/code/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libtiffconverter.so",
+      "abi": "x86_64",
+      "output": "D:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libtiffconverter.so"
+    }
+  }
+}

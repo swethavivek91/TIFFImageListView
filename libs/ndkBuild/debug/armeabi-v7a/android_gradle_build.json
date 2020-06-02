@@ -1,0 +1,744 @@
+{
+  "buildFiles": [
+    "D:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk",
+    "D:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "tifffactory-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libtifffactory.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "tifffactory",
+      "files": [
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\NativeDecoder.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\NativeExceptions.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\NativeTiffBitmapFactory.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\mkg3states.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_aux.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_close.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_codec.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_color.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_compress.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dir.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirinfo.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirread.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirwrite.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dumpmode.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_error.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_extension.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_fax3.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_fax3sm.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_flush.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_getimage.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_jbig.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_jpeg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_luv.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_lzw.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_next.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_ojpeg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_open.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_packbits.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_pixarlog.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_predict.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_print.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_read.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_strip.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_swab.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_thunder.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_tile.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_unix.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_version.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_warning.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_write.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_zip.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\port\\lfind.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libtifffactory.so"
+    },
+    "tiffconverter-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libtiffconverter.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "tiffconverter",
+      "files": [
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\BaseTiffConverter.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\BitmapReader.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\BmpToTiffConverter.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\JpgToTiffConverter.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\NativeExceptions.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\NativeTiffConverter.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\PngToTiffConverter.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\TiffToBmpConverter.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\TiffToJpgConverter.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\TiffToPngConverter.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/png -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\mkg3states.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_aux.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_close.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_codec.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_color.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_compress.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dir.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirinfo.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirread.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirwrite.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dumpmode.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_error.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_extension.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_fax3.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_fax3sm.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_flush.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_getimage.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_jbig.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_jpeg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_luv.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_lzw.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_next.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_ojpeg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_open.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_packbits.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_pixarlog.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_predict.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_print.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_read.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_strip.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_swab.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_thunder.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_tile.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_unix.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_version.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_warning.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_write.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_zip.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\port\\lfind.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libtiffconverter.so"
+    },
+    "tiffsaver-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libtiffsaver.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "tiffsaver",
+      "files": [
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\NativeExceptions.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\NativeTiffSaver.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/21.1.6352462/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Assignment/code/app/src/main/jni -DANDROID -DANDROID_NDK -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\mkg3states.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_aux.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_close.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_codec.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_color.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_compress.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dir.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirinfo.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirread.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirwrite.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dumpmode.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_error.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_extension.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_fax3.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_fax3sm.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_flush.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_getimage.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_jbig.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_jpeg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_luv.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_lzw.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_next.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_ojpeg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_open.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_packbits.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_pixarlog.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_predict.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_print.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_read.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_strip.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_swab.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_thunder.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_tile.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_unix.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_version.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_warning.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_write.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_zip.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\port\\lfind.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libtiffsaver.so"
+    },
+    "tiff-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Android\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Assignment\\code\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Assignment/code/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libtiff.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "tiff",
+      "files": [
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\mkg3states.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_aux.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_close.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_codec.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_color.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_compress.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dir.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirinfo.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirread.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dirwrite.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_dumpmode.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_error.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_extension.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_fax3.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_fax3sm.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_flush.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_getimage.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_jbig.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_jpeg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_luv.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_lzw.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_next.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_ojpeg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_open.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_packbits.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_pixarlog.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_predict.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_print.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_read.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_strip.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_swab.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_thunder.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_tile.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_unix.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_version.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_warning.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_write.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\libtiff\\tif_zip.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Assignment\\code\\app\\src\\main\\jni\\tiff\\port\\lfind.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/ndk/21.1.6352462/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -ID:/Assignment/code/app/src/main/jni/tiff/libtiff -ID:/Assignment/code/app/src/main/jni/jpeg -ID:/Assignment/code/app/src/main/jni -DANDROID -DAVOID_TABLES -O3 -fstrict-aliasing -fprefetch-loop-arrays -nostdinc++ -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Assignment\\code\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libtiff.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "D:\\Android\\ndk\\21.1.6352462\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\Android\\ndk\\21.1.6352462\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
